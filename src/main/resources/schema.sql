@@ -1,5 +1,5 @@
-DROP SCHEMA tasksshare; --TODO remove this later
-CREATE SCHEMA tasksshare;
+DROP SCHEMA tasks_share; --TODO remove this later
+CREATE SCHEMA tasks_share;
 
 CREATE TABLE IF NOT EXISTS users
 (
