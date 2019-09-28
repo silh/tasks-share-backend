@@ -5,3 +5,4 @@ spring:
     username: postgres
     password: postgres
     url: jdbc:postgresql://localhost:5432/postgres
+    initialization-mode: always
