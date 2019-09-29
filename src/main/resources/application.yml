@@ -8,3 +8,5 @@ spring:
     properties:
       hibernate:
         default_schema: tasks_share
+  jackson:
+    default-property-inclusion: non_null

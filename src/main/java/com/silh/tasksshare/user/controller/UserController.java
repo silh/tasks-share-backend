@@ -23,6 +23,14 @@ public class UserController {
         return userService.createUser(userDto);
     }
 
+    @GetMapping(
+        path = "/{id}",
+        produces = MediaType.APPLICATION_JSON_VALUE
+    )
+    public UserDto getUser(@PathVariable Long id) {
+        return userService.getUser(id);
+    }
+
     @DeleteMapping("/{id}")
     public void deleteUser(@PathVariable("id") Long id) {
         userService.deleteUser(id);
